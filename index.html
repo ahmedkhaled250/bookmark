@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="p-5 pt-0 m-3"> Bookmarker</h1>
+        <hr>
+        <div class="p-5 parent text-center mb-4">
+            <div class="p-3">
+                <h2 class="fs-4 pb-3 fw-bold">Bookmark your favorite sites</h2>
+            </div>
+            <div>
+                <div class="p-2">
+                    <label for="nameInput" class="fs-6 fw-bold">Site Name</label>
+                    <input type="text" name="nameInput" placeholder="Bookmark Name" id="name" class="form-control">
+                    <p class="text-danger border border-danger rounded-2 d-none p-1 mt-2" id="checkName"></p>
+                </div>
+                <div class="p-2 pb-4">
+                    <label for="urlInput" class="fs-6 fw-bold">Site URL</label>
+                    <input type="text" name="urlInput" placeholder="Website URL" id="url" class="form-control">
+                    <p class="text-danger border border-danger d-none p-1 rounded-2 mt-2" id="checkURL"></p>
+                </div>
+                <button class="btn btn-outline-info w-100 " id="submit">Submit</button>
+            </div>
+        </div>
+        <div id="result">
+            
+        </div>
+        <hr>
+        <footer>
+            <div class="container">
+                <p class="text-black-50">&copy; 2019 Bookmarker Inc.</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="js/main .js"></script>
+</body>
+
+</html>
